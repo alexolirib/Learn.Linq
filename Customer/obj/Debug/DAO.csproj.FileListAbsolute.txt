@@ -1,0 +1,6 @@
+C:\Users\adm\source\repos\Curso.Linq.Debora\Customer\bin\Debug\Customer.dll
+C:\Users\adm\source\repos\Curso.Linq.Debora\Customer\bin\Debug\Customer.pdb
+C:\Users\adm\source\repos\Curso.Linq.Debora\Customer\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\adm\source\repos\Curso.Linq.Debora\Customer\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\adm\source\repos\Curso.Linq.Debora\Customer\obj\Debug\Customer.dll
+C:\Users\adm\source\repos\Curso.Linq.Debora\Customer\obj\Debug\Customer.pdb

@@ -1,0 +1,15 @@
+C:\Users\adm\source\repos\Curso.Linq.Debora\DAO.TEST\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\adm\source\repos\Curso.Linq.Debora\DAO.TEST\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\adm\source\repos\Curso.Linq.Debora\DAO.TEST\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\adm\source\repos\Curso.Linq.Debora\DAO.TEST\bin\Debug\DAO.TEST.dll
+C:\Users\adm\source\repos\Curso.Linq.Debora\DAO.TEST\bin\Debug\DAO.TEST.pdb
+C:\Users\adm\source\repos\Curso.Linq.Debora\DAO.TEST\bin\Debug\Customer.dll
+C:\Users\adm\source\repos\Curso.Linq.Debora\DAO.TEST\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\adm\source\repos\Curso.Linq.Debora\DAO.TEST\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\adm\source\repos\Curso.Linq.Debora\DAO.TEST\bin\Debug\Customer.pdb
+C:\Users\adm\source\repos\Curso.Linq.Debora\DAO.TEST\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\adm\source\repos\Curso.Linq.Debora\DAO.TEST\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\adm\source\repos\Curso.Linq.Debora\DAO.TEST\obj\Debug\DAO.TEST.csprojResolveAssemblyReference.cache
+C:\Users\adm\source\repos\Curso.Linq.Debora\DAO.TEST\obj\Debug\DAO.TEST.csproj.CoreCompileInputs.cache
+C:\Users\adm\source\repos\Curso.Linq.Debora\DAO.TEST\obj\Debug\DAO.TEST.dll
+C:\Users\adm\source\repos\Curso.Linq.Debora\DAO.TEST\obj\Debug\DAO.TEST.pdb
