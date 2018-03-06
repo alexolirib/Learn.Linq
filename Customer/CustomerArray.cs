@@ -42,6 +42,7 @@ namespace DAO
 
             return FoundCustomer;
         }
+        
 
         public List<Customer> InitialData()
         {
@@ -80,12 +81,50 @@ namespace DAO
                     id = 5,
                     Nome = "Amada",
                     Idade= 28,
-                    TypeId = null
+                    TypeId = 2
                 }
             };
+
             return custumer;
         }
-        
+
+        //cria 5 novos usuários null
+        public IEnumerable<Customer> retrieveEmptyList()
+        {
+            return Enumerable.Repeat(new Customer(), 5);
+        }
+
+        //dynamic pois vou vou fazer uma funçao dinamica e vai retornar uma lista
+        public dynamic GetNameAndOld(List<Customer> listCustomer)
+        {
+            var query = listCustomer.Select(c => "Name - " + c.Nome + ", Old - " + c.Idade);
+
+            foreach (var item in query)
+            {
+                Console.WriteLine(item);
+            }
+            return query;
+        }
+
+        //que será um retorno do tipo anonimo, por isso que é interessante usar o dynamic
+        public dynamic GetNameAndOldVerson2(List<Customer> listerCustomer)
+        {
+            //como vou usar dois tipos de atributos diferente a forma mais interessante
+            //de trabalhar é fazendo um objeto do tipo anônimo
+            var query = listerCustomer.Select(c => new //nov    o objeto(Criando função anonima)
+            {
+                Name = c.Nome,
+                c.Idade
+            });
+
+            foreach (var item in query)
+            {
+                Console.WriteLine($"Nome - {item.Name} , Age - {item.Idade} ");
+            }
+
+            return query;
+        }
+
         //retorna a ordenação da lista
         public IEnumerable<Customer> sortByListByName(List<Customer> customerList)
         {

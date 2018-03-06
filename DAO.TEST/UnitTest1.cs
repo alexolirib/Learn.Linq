@@ -55,5 +55,52 @@ namespace DAO.TEST
             Assert.AreEqual(1, resultTypeId.First().TypeId);
 
         }
+
+        [TestMethod]
+        public void buildTest()
+        {
+            var newBuild = new Build();
+
+            var result = newBuild.testRange();
+
+            Assert.IsNotNull(result);
+        }
+
+        [TestMethod]
+        public void comparingTest()
+        {
+            var newBuild = new Build();
+
+            var result = newBuild.testComparing();
+
+            foreach (var result1 in result)
+            {
+                Console.WriteLine(result1);
+            }
+
+            Assert.IsNotNull(result);
+        }
+
+        [TestMethod]
+        public void testSelectINameIdade()
+        {
+            var newCustomerArray = new CustomerArray();
+            var list = newCustomerArray.InitialData();
+
+            var result = newCustomerArray.GetNameAndOld(list);
+
+        }
+
+        [TestMethod]
+        public void testSelectINameIdadeVerson2()
+        {
+            var newCustomerArray = new CustomerArray();
+            var list = newCustomerArray.InitialData();
+
+            var result = newCustomerArray.GetNameAndOldVerson2(list);
+
+        }
     }
+
 }
+
