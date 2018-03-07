@@ -100,6 +100,58 @@ namespace DAO.TEST
             var result = newCustomerArray.GetNameAndOldVerson2(list);
 
         }
+
+        [TestMethod]
+        public void testJoin()
+        {
+            var custumer = new CustomerArray();
+            var typeId = new CustomerTypeIdArray();
+
+            var listCustumer = custumer.InitialData();
+            var listTypeId = typeId.InitialDataTypeId();
+
+            var result = custumer.joinListByCustomerAndTypeId(listCustumer, listTypeId);
+        }
+
+        [TestMethod]
+        public void TestSelectPessoasDevendoPaieFilho()
+        {
+            var customer = new CustomerArray();
+
+            var listCustomer = customer.InitialData();
+
+            var result = customer.peopleShouldSelect(listCustomer);
+        }
+
+        [TestMethod]
+        public void TestSelectManyPessoasDevendoPaieFilho()
+        {
+            var customer = new CustomerArray();
+
+            var listCustomer = customer.InitialData();
+
+            var result = customer.peopleShouldSelectMany(listCustomer);
+        }
+
+        [TestMethod]
+        public void TestSelectManyPessoasDevendoPaieFilhoSomenteNome()
+        {
+            var customer = new CustomerArray();
+
+            var listCustomer = customer.InitialData();
+
+            var result = customer.peopleShouldSelectMany2(listCustomer);
+        }
+
+        [TestMethod]
+        public void testSortNameAndId()
+        {
+            var customer = new CustomerArray();
+
+            var listCustomer = customer.InitialData();
+
+            var result = customer.sortGetNameAndId(listCustomer);
+        }
     }
 
 }

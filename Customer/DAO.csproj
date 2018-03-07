@@ -44,6 +44,9 @@
     <Compile Include="Customer.cs" />
     <Compile Include="CustomerArray.cs" />
     <Compile Include="CustomerTypeId.cs" />
+    <Compile Include="CustomerTypeIdArray.cs" />
+    <Compile Include="Invoice.cs" />
+    <Compile Include="InvoiceArray.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

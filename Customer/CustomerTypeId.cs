@@ -10,6 +10,7 @@ namespace DAO
     {
         public int id { get; set; }
         public String NameTypeId { get; set; }
+        public int? DisplayOrder { get; set; }
 
     }
 }

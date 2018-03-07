@@ -12,5 +12,7 @@ namespace DAO
         public String Nome { get; set; }
         public int Idade { get; set; }
         public int? TypeId { get; set; }
+
+        public List<Invoice> InvoiceList { get; set; }
     }
 }

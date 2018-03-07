@@ -13,3 +13,4 @@ C:\Users\adm\source\repos\Curso.Linq.Debora\DAO.TEST\obj\Debug\DAO.TEST.csprojRe
 C:\Users\adm\source\repos\Curso.Linq.Debora\DAO.TEST\obj\Debug\DAO.TEST.csproj.CoreCompileInputs.cache
 C:\Users\adm\source\repos\Curso.Linq.Debora\DAO.TEST\obj\Debug\DAO.TEST.dll
 C:\Users\adm\source\repos\Curso.Linq.Debora\DAO.TEST\obj\Debug\DAO.TEST.pdb
+C:\Users\adm\source\repos\Curso.Linq.Debora\DAO.TEST\obj\Debug\DAO.TEST.csproj.CopyComplete
