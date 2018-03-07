@@ -4,3 +4,9 @@ C:\Users\adm\source\repos\Curso.Linq.Debora\Customer\obj\Debug\DAO.csprojResolve
 C:\Users\adm\source\repos\Curso.Linq.Debora\Customer\obj\Debug\DAO.csproj.CoreCompileInputs.cache
 C:\Users\adm\source\repos\Curso.Linq.Debora\Customer\obj\Debug\Customer.dll
 C:\Users\adm\source\repos\Curso.Linq.Debora\Customer\obj\Debug\Customer.pdb
+C:\Users\alexo\Desktop\Learn.Linq\Customer\bin\Debug\Customer.dll
+C:\Users\alexo\Desktop\Learn.Linq\Customer\bin\Debug\Customer.pdb
+C:\Users\alexo\Desktop\Learn.Linq\Customer\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\alexo\Desktop\Learn.Linq\Customer\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\alexo\Desktop\Learn.Linq\Customer\obj\Debug\Customer.dll
+C:\Users\alexo\Desktop\Learn.Linq\Customer\obj\Debug\Customer.pdb

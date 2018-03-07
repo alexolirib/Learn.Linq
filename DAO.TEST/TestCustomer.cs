@@ -1,11 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace DAO.TEST
 {
     [TestClass]
-    public class UnitTest1
+    public class TestCustomer
     {
         [TestMethod]
         public void QueryById()
@@ -151,6 +152,31 @@ namespace DAO.TEST
             var listCustomer = customer.InitialData();
 
             var result = customer.sortGetNameAndId(listCustomer);
+        }
+        //analyzing data
+        
+
+        [TestMethod]
+        public void testListInvoiceTotalAmountInvoice()
+        {
+            var invoice = new InvoiceArray();
+
+            var listInvoice = invoice.retrieve();
+
+            var result = invoice.CalculateTotalAmountInvoice(listInvoice);//irá retornar a soma de todos
+
+            Assert.AreEqual(result, 8588.45m);
+        }
+        [TestMethod]
+        public void testListInvoiceTotalUnits()
+        {
+            var Invoice = new InvoiceArray();
+
+            var listInvoice = Invoice.retrieve();
+
+            var result = Invoice.CalculateTotalUnits(listInvoice);
+
+            Assert.AreEqual(result, 144);
         }
     }
 
